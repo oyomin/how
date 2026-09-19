@@ -1,5 +1,5 @@
 html, body {
-    background:linear-gradient(to bottom, #9cd7c7, #bad8d0);
+    background:#3d394c;
     margin: 0;
     padding: 0;
 }
@@ -35,4 +35,19 @@ ul {
 li {
     list-style-type: none;
     display: inline-block;
+}
+
+.btn {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.h1 {
+    
+
+    font-size: 100px;
+    margin-top: 200px;
 }
