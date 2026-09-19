@@ -3,3 +3,36 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.header {
+    color: black;
+    font-size: 50px;
+    text-align:center;
+    background-color:#ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+.border {
+    border-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0; 
+}
+
+.menu-bar {
+    color: #000;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
