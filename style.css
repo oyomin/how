@@ -23,15 +23,6 @@ html, body {
     top: 0; 
 }
 
-.header {
-    color: black;
-    font-size: 50px;
-    text-align:center;
-    background-color:#ffffff;
-    padding: 20px;
-    margin: 0;
-}
-
 .menu-bar {
     color: #000;
     padding: 30px;
@@ -55,7 +46,7 @@ li {
     font-size: 20px;
 }
 
-.motion {
+.Project {
     font-size: 50px;
     text-align: left;
     margin: 25px;
