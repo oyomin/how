@@ -46,6 +46,40 @@ li {
     font-size: 20px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 500px minmax(800px, auto) 200px;
+    grid-template-areas:
+        "header header"
+        "left main"
+        "footer footer";
+}
+
+.grid-header {
+    grid-area: header;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.grid-left {
+    grid-area: left;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.grid-main {
+    grid-area: main;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.grid-footer {
+    grid-area: footer;
+    background-color: #ffffff;
+    text-align: center;
+}
+
 /* .bg-image {
     background-image: url('img/YaniNeko.jpg');
      display: block;
